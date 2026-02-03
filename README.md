@@ -9,12 +9,12 @@ This project uses `uv` for environment and dependency management.
 1. Install `uv` if you don’t have it yet.
 2. Create a virtual environment: `uv venv`
 3. Sync dependencies (pick exactly one extra):
-4. `uv sync --extra cpu --group dev`
-5. `uv sync --extra cu128 --group dev`
-6. `uv sync --extra cu129 --group dev`
-7. `uv sync --extra cu130 --group dev`
-8. (Optional) Install pre-commit hooks: `uv run pre-commit install`
-9. Verify torch: `uv run python -c "import torch; print(torch.__version__)"`
+   - `uv sync --extra cpu --group dev`
+   - `uv sync --extra cu128 --group dev`
+   - `uv sync --extra cu129 --group dev`
+   - `uv sync --extra cu130 --group dev`
+4. (Optional) Install pre-commit hooks: `uv run pre-commit install`
+5. Verify torch: `uv run python -c "import torch; print(torch.__version__)"`
 
 Use only one of the extras at a time.
 
