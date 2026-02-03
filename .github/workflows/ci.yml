@@ -20,7 +20,7 @@ jobs:
         uses: astral-sh/setup-uv@v5
 
       - name: Install dev dependencies
-        run: uv sync --group dev
+        run: uv sync --group dev --extra cpu
 
       - name: Run tox
         run: uv run tox
