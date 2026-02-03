@@ -1,4 +1,5 @@
 # HeuristicBoundaryEncoding
+![CI](https://github.com/Alphaharrius/HeuristicBoundaryEncoding/actions/workflows/ci.yml/badge.svg)
 An implementation of the heuristic boundary neural quantum state.
 
 ## Setup
